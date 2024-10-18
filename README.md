@@ -1,4 +1,3 @@
-## What
 Integral is an app that runs in the background that allows you to add strings to your clipboard without needing to Alt-Tab.
 
 ## How it works
