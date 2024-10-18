@@ -11,7 +11,7 @@ I didn't want to study for an exam and needed something else to do.
 1. Install the pynput, pyautogui, and pyperclip libraries.
 2. Add your codes and the corresponding strings to the ```codes``` array in integral.py.
 3. Optionally, you can change the special character that must be typed before a code in line 22. Currently, the special characters are ```'#'``` and ```'$'```.
-4. Navigate to the Integral directory in your terminal and run ```pyinstaller --onefile integral.py```. Pyinstaller will build integral.py into a .exe file in ```<YOURPATH>/Integral/dist```.
+4. Navigate to the Integral directory in your terminal and run ```pyinstaller --onefile --noconsole integral.py```. Pyinstaller will build integral.py into a .exe file in ```<YOURPATH>/Integral/dist```.
 5. Whenever you want to use your build of Integral, simply run the .exe!
 6. Optionally, you can create a bash function to run the .exe, so you don't have to navigate to it every time you want to use it. If you're a linux user or a Windows user with Git Bash, this function can go in your ~/.bashrc file. Here's a simple example:
 ```
