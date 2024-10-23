@@ -4,7 +4,7 @@ Integral is an app that runs in the background that allows you to add strings to
 While Integral is running in the background, it reads your keyboard input. Whenever you type a special character followed by one of the codes you specify, it will add the corresponding string to your clipboard.
 
 ## Why
-I didn't want to study for an exam and needed something else to do. 
+Why not?
 
 ## Steps to install
 1. Install the ```pynput```, ```pyautogui```, and ```pyperclip``` libraries (This is assuming you already have python installed. If not, install python at ```https://www.python.org/downloads/```. Make sure that Python is added to your PATH in the installer menu). To install the libraries on Windows, open a Powershell session and run ```py -m pip install <NAME_OF_LIBRARY>```, for each of the three libraries.
